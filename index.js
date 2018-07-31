@@ -1,15 +1,16 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(street) {
   result = Math.abs(street - 42);
-  return result
+  return result;
 }
 
 function distanceFromHqInFeet(street) {
   distance = distanceFromHqInBlocks(street);
-  result = distance * 264
-  return result
+  result = distance * 264;
+  return result;
 }
 
 function distanceTravelledInFeet(start, end) {
-  result = Math.abs((start - end) * 264)
+  result = Math.abs((start - end) * 264);
+  return result;
 }
