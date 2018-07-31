@@ -9,3 +9,7 @@ function distanceFromHqInFeet(street) {
   result = distance * 264
   return result
 }
+
+function distanceTravelledInFeet(start, end) {
+  result = Math.abs((start - end) * 264)
+}
