@@ -1,4 +1,5 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(street) {
-  street - 42;
+  result = street - 42;
+  return result
 }
