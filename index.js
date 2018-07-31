@@ -15,6 +15,6 @@ function distanceTravelledInFeet(start, end) {
   return result;
 }
 
-function calculatesFarePrice(distanceTravelledInFeet(start, end)) {
+function calculatesFarePrice() {
   
 }
